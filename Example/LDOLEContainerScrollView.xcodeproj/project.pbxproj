@@ -1,0 +1,405 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7EC41E921E226F7400E7D79A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7EC41E911E226F7400E7D79A /* main.m */; };
+		7EC41E951E226F7400E7D79A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7EC41E941E226F7400E7D79A /* AppDelegate.m */; };
+		7EC41E981E226F7400E7D79A /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7EC41E971E226F7400E7D79A /* ViewController.m */; };
+		7EC41E9B1E226F7400E7D79A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7EC41E991E226F7400E7D79A /* Main.storyboard */; };
+		7EC41E9D1E226F7400E7D79A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7EC41E9C1E226F7400E7D79A /* Assets.xcassets */; };
+		7EC41EA01E226F7400E7D79A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7EC41E9E1E226F7400E7D79A /* LaunchScreen.storyboard */; };
+		7EC41EA91E2B794C00E7D79A /* OLETableViewDateSource.m in Sources */ = {isa = PBXBuildFile; fileRef = 7EC41EA81E2B794C00E7D79A /* OLETableViewDateSource.m */; };
+		AC1CFB5B60B031C5DC7FC30A /* libPods-LDOLEContainerScrollView.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 4F1D446FE324FC355DB98289 /* libPods-LDOLEContainerScrollView.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1F5724301614F277867B4C99 /* Pods-LDOLEContainerScrollView.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LDOLEContainerScrollView.debug.xcconfig"; path = "Pods/Target Support Files/Pods-LDOLEContainerScrollView/Pods-LDOLEContainerScrollView.debug.xcconfig"; sourceTree = "<group>"; };
+		4D3FFABE89BCFBDA8DABB783 /* Pods-LDOLEContainerScrollView.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LDOLEContainerScrollView.release.xcconfig"; path = "Pods/Target Support Files/Pods-LDOLEContainerScrollView/Pods-LDOLEContainerScrollView.release.xcconfig"; sourceTree = "<group>"; };
+		4F1D446FE324FC355DB98289 /* libPods-LDOLEContainerScrollView.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-LDOLEContainerScrollView.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7EC41E8D1E226F7400E7D79A /* LDOLEContainerScrollView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LDOLEContainerScrollView.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7EC41E911E226F7400E7D79A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		7EC41E931E226F7400E7D79A /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		7EC41E941E226F7400E7D79A /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		7EC41E961E226F7400E7D79A /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		7EC41E971E226F7400E7D79A /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		7EC41E9A1E226F7400E7D79A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		7EC41E9C1E226F7400E7D79A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		7EC41E9F1E226F7400E7D79A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		7EC41EA11E226F7400E7D79A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7EC41EA71E2B792A00E7D79A /* OLETableViewDateSource.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OLETableViewDateSource.h; sourceTree = "<group>"; };
+		7EC41EA81E2B794C00E7D79A /* OLETableViewDateSource.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OLETableViewDateSource.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7EC41E8A1E226F7400E7D79A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AC1CFB5B60B031C5DC7FC30A /* libPods-LDOLEContainerScrollView.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2CB655FC60813D0894CAC1E5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4F1D446FE324FC355DB98289 /* libPods-LDOLEContainerScrollView.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		7EC41E841E226F7300E7D79A = {
+			isa = PBXGroup;
+			children = (
+				7EC41E8F1E226F7400E7D79A /* LDOLEContainerScrollView */,
+				7EC41E8E1E226F7400E7D79A /* Products */,
+				D291E210BEF74BA5E52439B0 /* Pods */,
+				2CB655FC60813D0894CAC1E5 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		7EC41E8E1E226F7400E7D79A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7EC41E8D1E226F7400E7D79A /* LDOLEContainerScrollView.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7EC41E8F1E226F7400E7D79A /* LDOLEContainerScrollView */ = {
+			isa = PBXGroup;
+			children = (
+				7EC41E931E226F7400E7D79A /* AppDelegate.h */,
+				7EC41E941E226F7400E7D79A /* AppDelegate.m */,
+				7EC41E961E226F7400E7D79A /* ViewController.h */,
+				7EC41E971E226F7400E7D79A /* ViewController.m */,
+				7EC41EA71E2B792A00E7D79A /* OLETableViewDateSource.h */,
+				7EC41EA81E2B794C00E7D79A /* OLETableViewDateSource.m */,
+				7EC41E991E226F7400E7D79A /* Main.storyboard */,
+				7EC41E9C1E226F7400E7D79A /* Assets.xcassets */,
+				7EC41E9E1E226F7400E7D79A /* LaunchScreen.storyboard */,
+				7EC41EA11E226F7400E7D79A /* Info.plist */,
+				7EC41E901E226F7400E7D79A /* Supporting Files */,
+			);
+			path = LDOLEContainerScrollView;
+			sourceTree = "<group>";
+		};
+		7EC41E901E226F7400E7D79A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				7EC41E911E226F7400E7D79A /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		D291E210BEF74BA5E52439B0 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				1F5724301614F277867B4C99 /* Pods-LDOLEContainerScrollView.debug.xcconfig */,
+				4D3FFABE89BCFBDA8DABB783 /* Pods-LDOLEContainerScrollView.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7EC41E8C1E226F7400E7D79A /* LDOLEContainerScrollView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7EC41EA41E226F7400E7D79A /* Build configuration list for PBXNativeTarget "LDOLEContainerScrollView" */;
+			buildPhases = (
+				A8F10ADDB277A5BBA2119818 /* [CP] Check Pods Manifest.lock */,
+				7EC41E891E226F7400E7D79A /* Sources */,
+				7EC41E8A1E226F7400E7D79A /* Frameworks */,
+				7EC41E8B1E226F7400E7D79A /* Resources */,
+				82A5E16E6417E1F2D478D799 /* [CP] Embed Pods Frameworks */,
+				AD53FFDC7FA896DE9ADD30AB /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LDOLEContainerScrollView;
+			productName = LDOLEContainerScrollView;
+			productReference = 7EC41E8D1E226F7400E7D79A /* LDOLEContainerScrollView.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7EC41E851E226F7400E7D79A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = netease;
+				TargetAttributes = {
+					7EC41E8C1E226F7400E7D79A = {
+						CreatedOnToolsVersion = 8.2;
+						DevelopmentTeam = XLCU3ZLDJG;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 7EC41E881E226F7400E7D79A /* Build configuration list for PBXProject "LDOLEContainerScrollView" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 7EC41E841E226F7300E7D79A;
+			productRefGroup = 7EC41E8E1E226F7400E7D79A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7EC41E8C1E226F7400E7D79A /* LDOLEContainerScrollView */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7EC41E8B1E226F7400E7D79A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7EC41EA01E226F7400E7D79A /* LaunchScreen.storyboard in Resources */,
+				7EC41E9D1E226F7400E7D79A /* Assets.xcassets in Resources */,
+				7EC41E9B1E226F7400E7D79A /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		82A5E16E6417E1F2D478D799 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-LDOLEContainerScrollView/Pods-LDOLEContainerScrollView-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A8F10ADDB277A5BBA2119818 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		AD53FFDC7FA896DE9ADD30AB /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-LDOLEContainerScrollView/Pods-LDOLEContainerScrollView-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7EC41E891E226F7400E7D79A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7EC41E981E226F7400E7D79A /* ViewController.m in Sources */,
+				7EC41EA91E2B794C00E7D79A /* OLETableViewDateSource.m in Sources */,
+				7EC41E951E226F7400E7D79A /* AppDelegate.m in Sources */,
+				7EC41E921E226F7400E7D79A /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		7EC41E991E226F7400E7D79A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7EC41E9A1E226F7400E7D79A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		7EC41E9E1E226F7400E7D79A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7EC41E9F1E226F7400E7D79A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		7EC41EA21E226F7400E7D79A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		7EC41EA31E226F7400E7D79A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7EC41EA51E226F7400E7D79A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1F5724301614F277867B4C99 /* Pods-LDOLEContainerScrollView.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = XLCU3ZLDJG;
+				INFOPLIST_FILE = LDOLEContainerScrollView/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = netease.LDOLEContainerScrollView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		7EC41EA61E226F7400E7D79A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4D3FFABE89BCFBDA8DABB783 /* Pods-LDOLEContainerScrollView.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = XLCU3ZLDJG;
+				INFOPLIST_FILE = LDOLEContainerScrollView/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = netease.LDOLEContainerScrollView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7EC41E881E226F7400E7D79A /* Build configuration list for PBXProject "LDOLEContainerScrollView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7EC41EA21E226F7400E7D79A /* Debug */,
+				7EC41EA31E226F7400E7D79A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7EC41EA41E226F7400E7D79A /* Build configuration list for PBXNativeTarget "LDOLEContainerScrollView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7EC41EA51E226F7400E7D79A /* Debug */,
+				7EC41EA61E226F7400E7D79A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 7EC41E851E226F7400E7D79A /* Project object */;
+}

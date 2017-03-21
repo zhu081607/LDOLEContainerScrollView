@@ -1,0 +1,22 @@
+PODS:
+  - HMSegmentedControl (1.5.3)
+  - LDOLEContainerScrollView (0.1.0):
+    - HMSegmentedControl
+    - MJRefresh
+  - MJRefresh (3.1.12)
+
+DEPENDENCIES:
+  - LDOLEContainerScrollView (from `../`)
+
+EXTERNAL SOURCES:
+  LDOLEContainerScrollView:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  HMSegmentedControl: 7c6145afb50f26cec5f3243082f6f12b9f41318f
+  LDOLEContainerScrollView: 6d3f9eb3855784edb7c1a32b71e94f201600a9d4
+  MJRefresh: b96cdb21c4aa75a7b07654311ab2f315c497e806
+
+PODFILE CHECKSUM: d68fa8b2929494eab6f02e5700d3d71c1700a5a9
+
+COCOAPODS: 1.1.1

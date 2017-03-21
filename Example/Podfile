@@ -1,0 +1,8 @@
+source 'https://github.com/CocoaPods/Specs.git'
+#source 'https://git.ms.netease.com/neteaselottery/ldcpspecs.git'
+#source 'https://git.ms.netease.com/commonlibraryios/podspec.git'
+
+
+target 'LDOLEContainerScrollView' do
+  pod "LDOLEContainerScrollView", :path => "../"
+end

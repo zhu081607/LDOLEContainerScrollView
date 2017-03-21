@@ -1,0 +1,34 @@
+{
+  "name": "LDOLEContainerScrollView",
+  "version": "0.1.0",
+  "summary": "A UIStackView like ContainerScrollView, support multiple ScrollViews horizentol layout.",
+  "homepage": "http://EXAMPLE/LDOLEContainerScrollView",
+  "license": "MIT",
+  "authors": {
+    "荣英杰": "yjrong@corp.netease.com"
+  },
+  "platforms": {
+    "ios": "7.0"
+  },
+  "source": {
+    "git": "https://git.ms.netease.com/neteaselottery/LDOLEContainerScrollView.git",
+    "tag": "0.1.0"
+  },
+  "source_files": "LDOLEContainerScrollView/*.{h,m}",
+  "exclude_files": "Classes/Exclude",
+  "public_header_files": [
+    "LDOLEContainerScrollView/HYGDotSegcontrol.h",
+    "LDOLEContainerScrollView/LDPageContainerScrollView.h",
+    "LDOLEContainerScrollView/OLEContainerScrollViewContentView.h",
+    "LDOLEContainerScrollView/OLEContainerScrollView.h"
+  ],
+  "requires_arc": true,
+  "dependencies": {
+    "MJRefresh": [
+
+    ],
+    "HMSegmentedControl": [
+
+    ]
+  }
+}
